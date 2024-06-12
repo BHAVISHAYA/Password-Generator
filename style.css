@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #67baae, #983fc6);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#myOutput {
+    width: 80%;
+    height: 50px;
+    text-align: center;
+}
+
+#clipBoard {
+    background-color: #b967ba;
+    margin-left: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#getNum {
+    width: 72%;
+}
+
+.passWord {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.passwordCard {
+    /* background-color: #7353BA; */
+    background-image: linear-gradient(to right, #983fc6, #67baae);
+    border: 3px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: -3px 3px 5px black;
+}
+
+.checkSign {
+    width: 20px;
+    height: 20px;
+}
+
+.genBtn {
+    padding: 10px;
+    background-color: #67baae;
+    font-weight: 900;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
